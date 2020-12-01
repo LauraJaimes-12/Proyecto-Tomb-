@@ -1,0 +1,74 @@
+body{
+        margin:1cm;
+        padding: 1cm;
+        background-image: url("images/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+      }
+
+
+  #pagina {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        margin: 1cm;
+        padding: 0cm;
+    }
+
+h4{
+  border: 5px solid black;
+  background: black;
+  color: white;
+  font-family: Helvetica;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  border: 5px solid black;
+  background: black;
+  color: white;
+  font-family: Helvetica;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+button{
+  margin:4cm;
+  padding: 0;
+  background: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px
+}
+
+#buttons1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:5cm;
+  padding: 0cm;
+}
+#buttons2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:4cm;
+  padding: 0cm;
+}
+
+#canvas {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0px;
+}
+
+
+    
