@@ -41,9 +41,9 @@ const mapa = {
 camino: 0,
 moneda: 2,
 muro: 1,
-tomb: "p",
+
 superMoneda: 3,
-agua: "w"
+
 }; 
 
 //Esta es una funcion para calcular el numero total de monedas y super monedas que se encuentran en el juego.
