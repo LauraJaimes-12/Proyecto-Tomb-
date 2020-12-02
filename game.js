@@ -1,3 +1,4 @@
+
 const { append, cons, first, isEmpty, isList, length, rest } = functionalLight;
 
 function make(data, attribute) {
@@ -193,8 +194,9 @@ function sketchProc(processing) {
     posicionTomb_Water(world, processing.second())
 
   }
-    }if(world.puntaje==144){
-        processing.image(youWIN, 0, 0, 470,500);
+    }if(world.puntaje==143){
+        return processing.image(youWIN, 0, 0, 470,500);
+        world.inGame = false;
     }
     
     //Este es para definir el agua y que pueda aparecer en pantalla
