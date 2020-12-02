@@ -41,7 +41,6 @@ const mapa = {
 camino: 0,
 moneda: 2,
 muro: 1,
-
 superMoneda: 3,
 
 }; 
